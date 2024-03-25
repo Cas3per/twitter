@@ -1,0 +1,38 @@
+.widgets{
+    flex: 0.3;
+
+}
+
+.widgets-input{
+    display: flex;
+    align-items: center;
+    background-color: #e6ecf0;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.widgets-input > input{
+    border: none;
+    background-color: #e6ecf0;
+    outline: none;
+}
+
+.widgets-SearchIcon{
+    color: grey;
+
+}
+
+.widgetsContainer{
+    margin-top: 15px;
+    margin-left: 20px;
+    padding: 20px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+}
+
+.widgetsContainer h2{
+    font-size: 18px;
+    font-weight: 800;
+}

@@ -1,0 +1,13 @@
+.sidebar_options{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar_options:hover{
+    background-color: var(--twitter-background);
+    color: var(--twitter-color);
+    border-radius: 30px;
+    transition: color 100ms ease-in;
+}
+
