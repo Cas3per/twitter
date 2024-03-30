@@ -5,11 +5,13 @@
     padding-bottom: 10px;
 }
 
+
 .post_body{
     flex: 1;
     padding: 10;
 
 }
+
 
 .post_avatar{
     padding: 20px;
@@ -22,6 +24,40 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin-right: 200px;
+}
+
+.post_footer .chatBubble{
+    margin-right: 50px;
+}
+
+
+.post_footer .chatBubble:hover{
+    color: #50b7f5;
+}
+
+.post_footer .repeat{
+    margin-right: 50px;
+}
+
+.post_footer .repeat:hover{
+    color: #50b7f5;
+}
+
+.post_footer .bIcon{
+    margin-right: 50px;
+}
+
+.post_footer .bIcon:hover{
+    color: red;
+}
+
+.post_footer .retweet{
+    margin-left: 50px;
+}
+
+.post_footer .publish:hover{
+    color: #50b7f5;
 }
 
 .post_badge{
@@ -32,7 +68,7 @@
 
 .post_image{
     height: 200px;
-    width: 250px;
+    width: 300px;
     margin-right: 200px;
     border-radius: 10px;
 }
@@ -50,14 +86,4 @@
 .post_headerDescription{
     margin-bottom: 10px ;
     font-size: 15px;
-}
-
-.post_footer{
-    display: flex;
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-
-.chatBubble{
 }

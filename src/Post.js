@@ -31,9 +31,9 @@ const Post = () => {
             <img src='https://pbs.twimg.com/profile_images/1551576545516462081/0o9u7TJ__400x400.jpg' alt='' className='post_image'/>
             <div className='post_footer'>
                 <ChatBubbleOutline  className='chatBubble'/>
-                <Repeat />
-                <FavoriteBorderIcon />
-                <PublishIcon />
+                <Repeat className='repeat'/>
+                <FavoriteBorderIcon className='bIcon'/>
+                <PublishIcon className='publish'/>
             </div>
         </div>
     </div>
